@@ -14,7 +14,7 @@ body{
 }
 
 .navbar-container{
-    display: flex;/*to make all elements  horizontal*/
+    display: flex;
     align-items: center;
     padding: 0 50px;
     height: 100%;
@@ -36,7 +36,7 @@ body{
     flex: 6;
 }
 
-/*display flex will make it horizontal */
+
 .menu-list{
     display: flex;
     list-style: none;
@@ -122,8 +122,7 @@ body{
 
 .container{
     background-color: #151515;
-    /*Used calc so that our background color don't get overflow*/
-    min-height: calc(100vh - 50px);/*we have wriiten min height because if we write height the content of movies will be overflowed to maintain th ebackground we use it*/
+    min-height: calc(100vh - 50px);    
     color: white;
 }
 
@@ -141,8 +140,7 @@ body{
     width: 200px;
 }
 
-/*given width will help to display content of the size 500 px color of text willl 
-be grey and space between image and text and button will be 30 px*/
+
 .featured-desc{
     width: 500px;
     color: lightgray;
