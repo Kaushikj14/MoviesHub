@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&family=Roboto:wght@100;300;400;500;700&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" ></link>
+    <title>Design Movie</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"> <h1 class="logo">MoviesHub</h1> </div>
+            <div class="menu-container">
+                <!--for navbar-->
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+    
+                </ul>
+            </div>
+            
+        <div class="profile-container">
+            
+            <!--for the profile picture-->
+            <img class="profile-picture" src="profile.jpg" alt="profile-img">
+            <div class="profile-text-container">
+                <!--for profile text-->
+                <span class="profile-text">Profile</span>
+                <!--for arrow after we have written profile written-->
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+
+            <!--For the light and dark mode-->
+                <div class="toggle">
+                <!--for icone of moon and sun-->
+                <i class="fa-solid fa-moon toggle-icon"></i>
+                <i class="fa-solid fa-sun toggle-icon"></i>
+                <div class="toggle-ball"></div>
+                </div>
+        </div>
+    </div>
+
+    <!--for sidebar-->
+    <div class="sidebar">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house-chimney"></i>
+        <i class="left-menu-icon fa-solid fa-users"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+        <i class="left-menu-icon fa-solid fa-hourglass-start"></i>
+        <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+    </div>
+
+
+    <div class="container">
+        <div class="content-container">
+            <!--for back grounf image we use style and in that background url-->
+            <div class="featured-content"
+            style=" background:linear-gradient(to bottom, rgba(0,0,0,0) , #151515), url(f-1.jpg);"
+            >
+                <img src="f-t-1.png" alt="" class="featured-title">
+                <!--for the content-->
+                <p class="featured-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Quam inventore assumenda laudantium veritatis voluptatum error eaque minima temporibus 
+                    dolorem commodi voluptatibus, dolorum aliquid, illum libero et quis asperiores ducimus 
+                    quasi.
+                </p>
+                <!--for the button-->
+                <button class="featured-button">WATCH</button>
+            </div>
+
+            <!--to give list of movies-->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="1.jpeg" alt="">
+                            <span class="movie-list-item-title">HER</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="10.jpg" alt="">
+                            <span class="movie-list-item-title">DUE DATE</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="11.jpg" alt="">
+                            <span class="movie-list-item-title">KICK-ASS 2</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="12.jpg" alt="">
+                            <span class="movie-list-item-title">EMOJI MOVIE</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="13.jpg" alt="">
+                            <span class="movie-list-item-title">1920</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="14.jpg" alt="">
+                            <span class="movie-list-item-title">PATH OF GLORY </span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="Golmaal.jpeg" alt="">
+                            <span class="movie-list-item-title">GOLMAAL</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <!--here arrow in below line is class-->
+                    <i class="fa-solid fa-chevron-right arrow"></i>      
+                </div>
+            </div>
+
+            <!--second contenor-->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="1.jpeg" alt="">
+                            <span class="movie-list-item-title">HER</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="10.jpg" alt="">
+                            <span class="movie-list-item-title">DUE DATE</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="11.jpg" alt="">
+                            <span class="movie-list-item-title">KICK-ASS 2</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="12.jpg" alt="">
+                            <span class="movie-list-item-title">EMOJI MOVIE</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="13.jpg" alt="">
+                            <span class="movie-list-item-title">1920</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="14.jpg" alt="">
+                            <span class="movie-list-item-title">PATH OF GLORY</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="Golmaal.jpeg" alt="">
+                            <span class="movie-list-item-title">GOLMAAL</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <!--here arrow in below line is class-->
+                    <i class="fa-solid fa-chevron-right arrow"></i>      
+                </div>
+            </div>
+
+            <div class="featured-content"
+            style=" background:linear-gradient(to bottom, rgba(0,0,0,0) , #151515), url(f-2.jpg);"
+            >
+                <img src="f-t-2.png" alt="" class="featured-title">
+                <!--for the content-->
+                <p class="featured-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Quam inventore assumenda laudantium veritatis voluptatum error eaque minima temporibus 
+                    dolorem commodi voluptatibus, dolorum aliquid, illum libero et quis asperiores ducimus 
+                    quasi.
+                </p>
+                <!--for the button-->
+                <button class="featured-button">WATCH</button>
+            </div>
+
+            <!--third container-->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="1.jpeg" alt="">
+                            <span class="movie-list-item-title">HER</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="6.jpg" alt="">
+                            <span class="movie-list-item-title">King Kong</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="7.jpg" alt="">
+                            <span class="movie-list-item-title">KICK-ASS 2</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="8.jpg" alt="">
+                            <span class="movie-list-item-title">OBLIVION</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="9.jpg" alt="">
+                            <span class="movie-list-item-title">HOBBIT</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="10.jpg" alt="">
+                            <span class="movie-list-item-title">DUE DATE</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="TopGun.jpeg" alt="">
+                            <span class="movie-list-item-title">TOP GUN</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <!--here arrow in below line is class-->
+                    <i class="fa-solid fa-chevron-right arrow"></i>      
+                </div>
+            </div>
+
+            <!--fourth container-->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="Golmaal.jpeg" alt="">
+                            <span class="movie-list-item-title">GOLMAAL</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="TopGun.jpeg" alt="">
+                            <span class="movie-list-item-title">TOPGUN</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="TopGunMaverik.jpeg" alt="">
+                            <span class="movie-list-item-title">TOPGUN MAVERIK</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="CE.jpeg" alt="">
+                            <span class="movie-list-item-title">CHENNAI EXPRESS</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="Venom.jpeg" alt="">
+                            <span class="movie-list-item-title">VENOM</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="7.jpg" alt="">
+                            <span class="movie-list-item-title">1920</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-image" src="14.jpeg" alt="">
+                            <span class="movie-list-item-title">PATH OF GLORY</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dignissimos, quos molestiae tempora rerum laborum commodi molestias beatae 
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <!--here arrow in below line is class-->
+                    <i class="fa-solid fa-chevron-right arrow"></i>      
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- linking js file-->
+    <script src="app.js"></script>
+</body>
+</html>
